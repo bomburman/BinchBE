@@ -1,0 +1,336 @@
+
+:root {
+
+  --white-norm : #FFF7EA ;
+  --black-norm : #070302 ;
+  --red-norm   : #A62F03 ;
+  --white-beer : #F6DFB3 ; 
+  --yellow-beer: #f08600 ;
+  --brown-beer : #300a02 ;
+  background: var(--white-norm) 
+}
+ /* --------------------------------
+=normalize margins
+-------------------------------- */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol,
+dl,
+dd,
+dt,
+form
+{
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.body {
+
+padding: 0;
+margin: 0;
+border: 0;
+
+
+}
+
+/*------------------------------------------------image de la banière---------------------------------------------------------*/
+.img_logo{
+  width: 50%;
+  position: relative;
+  
+  margin-left: 25%;
+  margin-top: 25%;
+  z-index: 2;
+}
+
+.img_backmain{
+  border-bottom: 200px;
+  position: absolute;
+ 
+  width: 100%;
+  left: -8.44px;
+  top: 5.11px;
+  z-index: 1;
+}
+ 
+
+/*-------------------------------------------------Binchomachine-----------------------------------------------------*/
+
+
+.selecteur{
+ position: relative;
+ 
+
+  z-index: 3;
+  align-items: center;
+  background-color: #F29F05;
+  
+  border-width: 5px;
+  border-style: solid;
+  border-color: #A79F9C;
+  border-radius: 5px;
+  margin: 27% 15% 0% 15%;
+
+}
+
+.l_selec{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.l_selec_color, .l_selec_alcool, .l_selec_amertume{
+ 
+  align-items: center;
+ 
+}
+
+.amertume_selec, .color_selec, .alcool_selec{
+
+font-family: Squada One;
+font-size: 12px;
+top: auto;
+
+}
+
+.brew{
+  position: relative;
+  text-decoration: none;
+  padding: 0 50px 0 50px  ;
+  top: 10px;
+font-family: Squada One;
+font-size: 50px;
+
+
+color:  var(--black-norm);
+font-style: none;
+
+border-radius: 5px;
+background-color: #A65D33 ;
+
+transition: color 0.2s, background-color 0.2s ease-in-out ;
+}
+
+.brew:hover{
+  background-color: var(--black-norm);
+  color: #A65D33;
+}
+
+.utilisation{
+  position: relative;
+  width:30% ;
+  margin-top: 120px;
+  margin-left: 15% ;
+  
+  
+  font-family: Nanum Brush Script ;
+  font-size: 54px;
+  color: var(--red-norm);
+}
+
+
+.text-util{
+
+  font-family: Sarala ;
+  font-size: 18px;
+  color: var(--black-norm);
+
+}
+
+@media all and (max-width: 900px) {
+  .utilisation{
+    width: 75%;
+  }
+}
+/*---------------------------------------------Biere------------------------------------------*/
+.present_biere{
+  margin: 200px 0 200px;
+text-align: center;
+}
+.present_titre{
+  margin-bottom: 50px;
+  font-family: Kaushan Script ;
+  font-size: 54px;
+  color: var(--red-norm);
+
+}
+
+.l_present{
+ margin-top: 50px;
+ margin-bottom: 50px;
+font-family: Squada One ;
+}
+
+.dot_yellow, .dot_white, .dot_brown{
+  position: absolute;
+  width: 1%;
+  margin-left: 45%;
+  
+  display: block;
+  margin-bottom: auto;
+  background-position-x: -10%;
+}
+
+.info{
+  position: static;
+  text-align: center;
+}
+
+.present_info {
+  
+width: 30%;
+margin-left: 35%;
+
+font-family: Sarala;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+
+color: #7B6F6B;
+  
+}
+
+/*-----------------------------------------------------------Catalogue----------------------------------------------*/
+
+
+.rep_page{
+  display: none;
+}
+
+
+/*---------------------------------------------Footer------------------------------------------*/
+
+.c-bar{
+  text-align: center;
+  position: static;
+  bottom: 100px;
+
+  width: 100%;
+  
+
+
+}
+
+.c-sitefooter {
+  
+  padding-top: 60px;
+  background-color: var(--black-norm);
+  color: var(--white-norm);
+}
+.c-sitefooter__content{
+  text-align: center;
+}
+
+.c-sitefooter__dispo {
+  margin-left:60px;
+ padding: 0;
+  width: 100%;
+  list-style: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+
+}
+
+
+@media all and (max-width: 900px) {
+  .c-sitefooter__dispo{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+ .c-sitefooter__dispo, .sitefooter_social .c-socialmedia{
+   
+   width: 100%;
+   align-items: center;
+ }
+}
+
+/*nav*/
+
+.c-footernav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 62px;
+
+}
+
+.c-footernav__link{
+  list-style: none;
+  font-style: none;
+  font-family: Squada One ;
+  text-decoration: none;
+  color: white;
+
+  transition: color 0.2s ease-in-out;
+}
+
+.c-footernav__link:hover{
+  color: var(--red-norm);
+}
+
+/*logo*/
+.c-sitefooter__logo{
+  
+  justify-content:space-around;
+
+
+  
+}
+
+/*social*/
+.c-socialmedia{
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  margin-top: 31px;
+ 
+  
+
+}
+
+.c-socialmedia__item{
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.c-socialmedia__item:hover{
+transform: scale(1.10);
+}
+/* --------------------------------
+=copyright (paragraphe)
+-------------------------------- */
+
+.c-copyright {
+  margin: 0;
+  padding: 24px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+

@@ -1,0 +1,23 @@
+
+
+Code	Nom	    couleur  	Taux	Gout
+
+
+1-1-1: Cristal I.P.A - Blonde - 4,7% - Amère
+1-1-2: Desperados - Blonde - 5,9% - Sucré
+1-2-1: Bière du Démon - Blonde - 12% - Amère
+1-2-2: Sweet Sweet - Blonde -  9,5% - Sucré
+
+2-1-1: Leroy Brune -Brune - 1,8% - Amère  
+2-1-2: Piedboeuf - Brune - 1,5% - Sucré
+2-2-1: Saint Bernardus - Brune - 10% - Amère
+2-2-2: Bush de Noël -Brune - 12% - Sucré 
+
+3-1-1: Blanche de Charleroi - Blanche - 4,5% - Amère  	 
+3-1-2: Blanche de Namur - Blanche - 4,5% - Sucré
+3-2-1: Tumulus Magna - Blanche - 9% - Amère
+3-2-2: Couagga - Blanche - 7,2% - Sucré
+
+mise en ligne:
+
+Netlify
